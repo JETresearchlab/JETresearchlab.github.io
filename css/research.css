@@ -1,3 +1,7 @@
-ul {
-    list-style: disc;
+#mof-images {
+    gap: 1rem;
+}
+
+#mof-images img {
+    height: 133px;
 }
