@@ -2,7 +2,7 @@
 <head>
   <title>JET Research Group</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
-  <link rel="stylesheet" href="./css/index.css"/>
+  <link rel="stylesheet" href="./css/gallery.css"/>
 </head>
 <body>
   <div class="is-flex is-justify-content-end">
@@ -23,7 +23,26 @@
   </div>
   <div class="container">
     <h2 class="title is-2">Gallery</h2>
-         <img src="images/LabView.png"/>
+    <div class="fixed-grid has-3-cols">
+      <div class="grid">
+        <div class="gallery-image-container">
+          <div style="background-image: url(images/LabView.png);" class="gallery-image"></div>
+          <p class="has-text-centered">Our lab space!</p>
+        </div>
+        <div class="gallery-image-container">
+          <div style="background-image: url(images/first_MOFs_MOF-303.png);" class="gallery-image"></div>
+          <p class="has-text-centered">First MOFs have been synthesized!</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <img id="modal-image" src="">
+      </div>
+      <button class="modal-close is-large"></button>
+    </div>
   </div>
+  <script src="js/gallery.js"></script>
 </body>
 </html>
