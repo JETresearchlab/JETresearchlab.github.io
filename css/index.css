@@ -3,6 +3,11 @@
     margin-left: 3rem;
 }
 
+.news .box .content {
+    max-height: 30rem;
+    overflow-y: auto;
+}
+
 .news-date {
     margin-bottom: 0 !important;
 }
@@ -10,4 +15,8 @@
 .contact-info {
     margin: 1.5rem;
     margin-right: 3rem;
+}
+
+.contact-info li {
+    margin-bottom: 1.5rem;
 }
