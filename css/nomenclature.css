@@ -1,0 +1,11 @@
+.content ol {
+    list-style-type: decimal !important;
+}
+
+.content ol ol {
+    list-style-type: lower-alpha !important;
+}
+
+.content ol ol ol {
+    list-style-type: lower-roman !important;
+}
